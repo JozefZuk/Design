@@ -2,6 +2,9 @@ body{
     font-family: 'Poppins';
     margin: 0;
 }
+.main{
+    transition: 0.3s;
+}
 
 
 /* ////////////////// */
@@ -11,7 +14,7 @@ body{
 .upperDiv{
     min-height: 100vh;
 
-    background-image: url(img/krisztian-tabori-IyaNci0CyRk-unsplash.jpg);
+    background-image: url(img/joanna-kosinska-bF2vsubyHcQ-unsplash.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -30,14 +33,14 @@ body{
 
 .title{
     font-weight: 600;
-    font-size: 80px;
+    font-size: 8vh;
 }
 
 .startBtn{
     font-family: Poppins;
     font-style: normal;
     font-weight: normal;
-    font-size: 35px;
+    font-size: 28px;
     line-height: 52px;
 
     color: #FFFFFF;
@@ -65,5 +68,32 @@ body{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     grid-gap: 0;
-    
+}
+
+/* ///////////////// */
+/* menu */
+/* ///////////////// */
+
+.icon{
+    height: 50px;
+    width: 50px;
+
+    background-image: url(img/icon.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+
+    position: fixed;
+    top: 50px;
+    left: 50px;
+    z-index: 50;
+
+    transform: 0.5s;
+}
+
+/* script class */
+.left{
+    margin-left: 30%;
+}
+.black-shadow{
+    background-image: url(img/icon2.svg);
 }
