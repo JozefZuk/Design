@@ -1,14 +1,66 @@
-.body{
+body{
     font-family: 'Poppins';
     margin: 0;
 }
 
 
+/* ////////////////// */
+/* index */
+/* ////////////////// */
 
+.upperDiv{
+    min-height: 100vh;
+
+    background-image: url(img/krisztian-tabori-IyaNci0CyRk-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.upperDiv___header{
+    color: white;
+
+    padding: 10vh 7%;
+}
+
+
+
+/* ////////////////// */
 /* auto */
+/* ////////////////// */
+
+.title{
+    font-weight: 600;
+    font-size: 80px;
+}
+
+.startBtn{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 35px;
+    line-height: 52px;
+
+    color: #FFFFFF;
 
 
+    border: 3px solid white;
+    border-radius: 50px;
+
+    padding: 5px 15px;
+    background: none;
+    
+    transition: 0.3s;
+}
+
+.startBtn:hover{
+    border-radius: 0;
+}
+
+
+/* ////////////////// */
 /* responsive */
+/* ////////////////// */
+
 .full-vw {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
